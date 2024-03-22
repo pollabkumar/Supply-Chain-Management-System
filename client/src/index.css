@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora&display=swap");
+
+body {
+    font-family: "Sora", sans-serif;
+}
+
+.item-button button {
+    margin-top: 20px;
+    width: 200px;
+    background-color: rgba(2, 0, 10, 0.954);
+    color: white;
+}
+
+
+
+.category {
+    border: 2px solid grey;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.category img {
+    margin-left: 10px;
+}
+
+.category-active {
+    border: 2px solid rgb(151, 42, 42);
+    background-color: rgb(180, 191, 191);
+}
+
+
+.register {
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    background-image: url('https://thumbs.dreamstime.com/b/supply-chain-management-concep-26097822.jpg');
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.register input {
+    width: 400px !important;
+}
+
+.register-form {
+    background-color: snow;
+    padding: 20px;
+    border-radius: 7px;
+    box-shadow: rgb(6 24 44 / 40%) 0px 0px 60px 8px, rgb(6 24 44 / 65%) 12px 3px 32px -1px, rgb(225 319 255 / 8%) 0px 1px 0px inset
+}
+
+.register-form h3 {
+    color: rgb(2, 3, 11)
+}
